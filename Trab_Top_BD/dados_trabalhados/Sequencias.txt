@@ -1,0 +1,9 @@
+1. Usuário escolhe estado e tipo de instituição
+2. programa varre o arquivo quantidade de inscritos e formandos e insere no mongodb
+3. programa varre o arquivo instituições, de acordo com o estado e tipo de instituição escolhidos
+   e insere no mongodb
+4. programa varre o arquivo municipios do brasil e insere a latitude e longitude no mongodb
+5. programa procura quantidade de inscritos e formandos das instituições inseridas no mongo
+   se registro retornar a quantidade dos dois criar consulta Cypher para inserir no Neo4j
+6. Listar Municipios por estado com maior número de instituições de ensino localizadas no mesmo
+7. Verificar possível criação de mapa de calor: Por quantidade e por melhor instituição
